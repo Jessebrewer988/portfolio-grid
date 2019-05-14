@@ -124,8 +124,13 @@ body {
   grid-column: span 3;
 }
 
-.two {
-  background-image: url("//unsplash.it/800/600");
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  background-image: url(//unsplash.it/800/600);
   color: #c4c4c4;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   background-size: cover;
@@ -137,11 +142,28 @@ body {
   z-index: 10;
 }
 
-.two::before {
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover {
+  cursor: pointer;
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  font-size: 2rem;
+}
+
+.one::before,
+.two::before,
+.three::before,
+.four::before,
+.five::before,
+.six::before {
   content: '';
   display: block;
   background: #353535;
-  opacity: 0.8;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   right: 0;
@@ -152,7 +174,16 @@ body {
   z-index: -1;
 }
 
-.two:hover::before {
-  opacity: 0.2;
+.one:hover::before,
+.two:hover::before,
+.three:hover::before,
+.four:hover::before,
+.five:hover::before,
+.six:hover::before {
+  opacity: 0.3;
+}
+
+.two {
+  background-image: url("./assets/images/dq.png");
 }
 /*# sourceMappingURL=styles.css.map */
