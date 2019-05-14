@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-grid",
+  "version": "1.0.0",
+  "description": "A CSS grid-based portfolio site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jessebrewer988/portfolio-grid.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "javascript"
+  ],
+  "author": "Jesse Brewer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jessebrewer988/portfolio-grid/issues"
+  },
+  "homepage": "https://github.com/Jessebrewer988/portfolio-grid#readme"
+}
